@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!--
+  flatironinstitute.org
+  -->
+<html>
+  <head>
+    <title>Sophie Dinah Beck | Theoretical Condensed Matter Physics</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/ccq.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="#" class="image avatar"
+          ><img src="images/PTB44_F_63736.jpg" alt=""
+        /></a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li>
+            <a
+              href="#about"
+              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#research"
+              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+              >Research</a
+            >
+          </li>
+          <li>
+            <a
+              href="#papers"
+              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+              >Papers</a
+            >
+          </li>
+          <li>
+            <a
+              href="#software"
+              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+              >Software</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <div id="main">
+      <!-- About -->
+      <section id="about">
+        <header class="major">
+          <h2>Sophie Dinah Beck, Ph.D.</h2>
+        </header>
+        <p>
+        I am a theoretical condensed matter physicist working on strongly correlated quantum materials. I combine ab initio electronic structure calculations, effective low-energy models and many-body methods to compute transport and spectroscopic properties accurately enough for quantitative comparison with experiment — from the anomalous c-axis resistivity of Sr₂RuO₄ to the microscopic origin of the cuprate pseudogap. Much of this work is done in close collaboration with experimental
+        groups.<br>
+
+          Most recently I was a Postdoctoral Research Associate in Alessandro Toschi's group at
+          <a
+            href="https://www.tuwien.at/phy/ifp/quant-many-body/"
+            rel="noreferrer noopener"
+            target="_blank"
+            >TU Wien</a
+          >, on a project I proposed and secured the funding for. Before that I was an Associate Research Scientist and Flatiron Research Fellow at the
+          <a
+            href="https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/"
+            rel="noreferrer noopener"
+            target="_blank"
+            >Center for Computational Quantum Physics</a
+          >.
+          I obtained my Ph.D. in Materials Science from ETH Zurich, where I worked under the supervision of Prof. Claude Ederer.<br>
+          Beyond research, I am passionate about open-source research software -
+          I contribute to multiple open-source software projects, serve as an editor for the
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://joss.theoj.org/"
+            >Journal of Open Source Software</a
+          >, and have an interest in data visualization and illustration. Download my CV
+          <a href="pdfs/cv_sdbeck.pdf" rel="noreferrer noopener" target="_blank"
+            >here</a
+          > or read about my work in this
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.simonsfoundation.org/2022/11/22/controlling-the-complexity-tuning-quantum-materials-for-science-and-technology/"
+            >Spotlight article</a
+          >.
+        </p>
+      </section>
+      <!-- Research -->
+      <section id="research">
+        <h2>Research highlights</h2>
+        <!-- TODO: Replace with project info and choose image type -->
+        <div class="row">
+            <article class="col-12 work-item">
+              <h3>Connection to experiment</h3>
+              <p>
+                A recurring theme in my work is computing observables accurately enough that they
+                can be held against measurements directly, without adjustable parameters. This has
+                led to close and long-running collaborations with experimental groups &mdash; among
+                them work on angle-resolved photoemission in the correlated metal
+                Sr<sub>2</sub>RuO<sub>4</sub> with the groups of A. Tamai and F. Baumberger in
+                Geneva, and on the anomalous out-of-plane resistivity of layered oxides. A joint
+                project with the group of Lior Kornblum at the Technion on correlated transparent
+                conductors is currently in preparation.
+              </p>
+            </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <h3>Precision many-body methods</h3>
+            <p>
+              While the properties of conventional materials can be described adequately within frameworks like density functional theory,
+              strongly correlated materials often require a more demanding treatment within a many-body framework such as dynamical mean-field theory.
+              Capturing the electronic structure of quantum materials correctly is essential to gain insights into the fascinating physics and potential
+              technological applications of e.g. phase transitions, high-temperature superconductivity, exotic magnetic ordering and Mott physics.
+            </p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <img class="image fit" src="images/fulls/dft_plus_dmft.png" alt="" />
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <h3>Functional materials</h3>
+            <p>
+              Oxide heterostructures consist of atomic layers of complex transition metal
+              oxides whose properties often differ from those of the corresponding bulk
+              compounds. They therefore offer the opportunity to develop "materials by design",
+              where electronic properties are tailored to specific applications.
+            </p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <img class="image fit" src="images/fulls/Zfig_oxide_opac.png" alt="" />
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <h3>Tool building: web app FermiSee</h3>
+            <p>
+              We have recently developed a WebApp for data visualization and phenomenology
+              of correlated electronic structure based on input obtained by
+              <a
+                rel="noreferrer noopener"
+                target="_blank"
+                href="http://www.wannier.org/"
+                >Wannier90</a
+              >, and
+              <a
+                rel="noreferrer noopener"
+                target="_blank"
+                href="https://triqs.github.io/triqs/"
+                >TRIQS</a
+              >. You can test
+              <a
+                rel="noreferrer noopener"
+                target="_blank"
+                href="http://fermisee.flatironinstitute.org/"
+                >FermiSee</a
+              > in your browser or checkout the
+              <a
+                rel="noreferrer noopener"
+                target="_blank"
+                href="https://github.com/TRIQS/FermiSee/"
+                >git repo</a
+              > for more information and demos.
+            </p>
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <img
+              class="image fit"
+              src="https://github.com/TRIQS/FermiSee/blob/unstable/doc/FermiSee-tutorial.gif?raw=true"
+            />
+          </article>
+          <article class="col-6 col-12-xsmall work-item">
+            <h3>Spotlight: recent paper </h3>
+            <p>
+              In this recent
+              <a href="https://arxiv.org/abs/2406.15466" rel="noreferrer noopener" target="_blank"
+                >publication</a
+              >
+              we present an automatic, high-order accurate and adaptive Brillouin zone integration algorithm 
+              for the calculation of the optical conductivity using Wannier interpolation.
+              We released an open-source software package
+              <a
+                rel="noreferrer noopener"
+                target="_blank"
+                href="https://github.com/lxvm/AutoBZ.jl"
+                >AutoBZ.jl</a
+              >
+              available for download implementing the corresponding algorithms in Julia as described in this
+              <a href="https://joss.theoj.org/papers/10.21105/joss.07080" rel="noreferrer noopener" target="_blank"
+                >JOSS paper</a
+              >.
+            </p>
+          </article>
+             <!-- Full charge self-consistency leads to reduced orbital polarization in the correlated metal CaVO3.-->
+          <article class="col-6 col-12-xsmall work-item">
+            <img class="image fit" src="images/fulls/figure.png" alt="" />
+          </article>
+        </div>
+      </section>
+      <!-- Papers -->
+      <section id="papers">
+        <h2>Selected Papers</h2>
+        <div class="row">
+          <div class="col-12 col-12-small">
+            <ol>
+              <li>
+                Beck S., Shammami M., Van Muñoz L., Kaye J., Georges A., and Mravlje J.,
+                "Insulating transport in anisotropic metals: breakdown of Drude transport
+                and the puzzling c-axis resistivity of Sr<sub>2</sub>RuO<sub>4</sub> and
+                other layered oxides",
+                <i>Physical Review Letters</i> (2026), accepted for publication
+                <a
+                  href="https://arxiv.org/abs/2510.03756"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >arXiv</a>
+              </li>
+              <li>
+                Beck S. and Ramires A.,
+                "Structural reconstruction as the origin of the cuprate pseudogap",
+                submitted (2025)
+                <a
+                  href="https://arxiv.org/abs/2511.02508"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >arXiv</a>
+              </li>
+              <li>
+                Marrazzo A., Beck S., Margine E. R., Marzari N., Mostofi A. A., 
+                Qiao J., Souza I., Tsirkin S. S., Yates J. R., and Pizzi G.,
+                "Wannier-function software ecosystem for materials simulations",
+                <i>Reviews of Modern Physics</i> 96, 045008, (2024)
+                <a
+                  href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.96.045008"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >DOI</a>
+              </li>
+              <li>
+                Blesio G., Beck S., Gingras O., Georges A., and Mravlje J.
+                "Signatures of Hund metal and finite-frequency nesting in Sr2⁢RuO4
+                revealed by electronic Raman scattering",
+                <i>Physical Review Research</i> 6, 023124 (2024)
+                <a
+                  href="https://doi.org/10.1103/PhysRevResearch.6.023124"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >DOI</a>
+              </li>
+              <li>
+                Hunter A., Beck S., Cappelli E., Margot F., Straub M., Alexanian Y., Gatti G.,
+                Watson M. D., Kim T. K., Cacho C., Plumb N. C., Shi M., Radović M., Sokolov D. A.,
+                Mackenzie A. P., Zingl M., Mravlje J., Georges A., Baumberger F., and Tamai A.
+                "Fate of Quasiparticles at High Temperature in the Correlated Metal Sr2RuO4",
+                <i>Physical Review Letters</i> 131, 236502 (2023)
+                <a
+                  href="https://doi.org/10.1103/PhysRevLett.131.236502"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >DOI</a>
+              </li>
+              <li>
+                Kaye J., Beck S., Barnett A., Van Muñoz L., and Parcollet O.
+                "Automatic, high-order, and adaptive algorithms for Brillouin zone integration",
+                <i>SciPost Physics</i> 15, 062 (2023)
+                <a
+                  href="https://doi.org/10.21468/SciPostPhys.15.2.062"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >DOI</a>
+              </li>
+              <li>
+                Beck S., Hampel A., Parcollet O., Ederer C., and Georges A.,
+                "Charge self-consistent electronic structure calculations
+                with dynamical mean-field theory using Quantum ESPRESSO,
+                Wannier90 and TRIQS",
+                <i>Journal of Physics: Condensed Matter</i>, 34, 345601 (2022)
+                <a
+                  href="https://doi.org/10.1088/1361-648X/ac5d1c"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button primary icon xsmall solid fa-external-link-alt"
+                  >DOI</a>
+              </li>
+            </ol>
+            <ul class="actions">
+              <li>
+                <a
+                  href="https://scholar.google.ch/citations?user=KWgx6O4AAAAJ&hl=en&oi=ao"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  class="button"
+                  >All Publications</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Software -->
+      <section id="software">
+        <h2>Software</h2>
+        <p>I contribute to a number of open source software projects.</p>
+        <div class="table-wrapper">
+          <table class="alt">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://triqs.github.io/solid_dmft/">solid_dmft</a></td>
+                <td>
+                  Versatile python wrapper to perform DFT + DMFT calculations utilizing the TRIQS software library
+                </td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/lxvm/AutoBZ.jl">AutoBZ.jl</a></td>
+                <td>
+                  Modular Julia package iplementing efficient algorithms for Brillouin zone integration
+                </td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/TRIQS/FermiSee/">FermiSee</a></td>
+                <td>
+                  WebApp for data visualization and phenomenology of correlated electronic structure
+                </td>
+              </tr>
+              <tr>
+                <td><a href="https://triqs.github.io/triqs/latest/">TRIQS</a></td>
+                <td>
+                  Toolbox for Research on Interacting Quantum Systems
+                </td>
+              </tr>
+              <tr>
+                <td><a href="https://www.quantum-espresso.org/">Quantum ESPRESSO</a></td>
+                <td>
+                  Open-source suite for quantum simulation of materials
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="row">
+          <div class="col-6 col-12-small">
+            <ul class="labeled-icons">
+              <li>
+                <h3 class="icon solid fa-envelope">
+                  <span class="label">Email</span>
+                </h3>
+                <a href="mailto:sophie.beck@tuwien.ac.at"
+                  >sophie.beck[at]tuwien.ac.at</a
+                >
+              </li>
+            </ul>
+            <ul class="icons">
+              <li>
+                <a href="https://github.com/phibeck" class="icon brands fa-github"
+                  ><span class="label">github</span></a
+                >
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/phibeck" class="icon brands fa-linkedin"
+                  ><span class="label">linkedin</span></a
+                >
+              </li>
+              <li>
+                  <a href="https://scholar.google.ch/citations?user=KWgx6O4AAAAJ&hl=en&oi=ao" class="icon solid fa-graduation-cap"
+                  ><span class="label">google scholar</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- TODO: Remove if not using Mathjax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </body>
+</html>
